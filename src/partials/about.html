@@ -1,22 +1,68 @@
 <section class="about">
   <div class="about__container">
-    <img
-      class="about__img"
-      src="./images/about/about-img@3x.jpg"
-      alt=""
-      width="581"
-      height="468"
-    />
+    <picture class="swiper-img">
+      <!-- desktop screen -->
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./images/about/about-img.webp    1x,
+          ./images/about/about-img@2x.webp 2x,
+          ./images/about/about-img@3x.webp 3x
+        "
+        type="image/webp"
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./images/about/about-img.jpg    1x,
+          ./images/about/about-img@2x.jpg 2x,
+          ./images/about/about-img@3x.jpg 3x
+        "
+        type="image/jpg"
+      />
+      <!-- fallback -->
+      <img
+        class="about__img"
+        src="./images/about/about-img@3x.jpg"
+        alt=""
+        width="581"
+        height="468"
+        loading="lazy"
+      />
+    </picture>
     <div class="about__wrap">
       <h2 class="about__title">
         Eat a banana for a healthy snack
-        <img
-          class="about__title-img"
-          src="./images/about/about-title-img@3x.jpg"
-          alt="Leaf"
-          width="130"
-          height="65"
-        />
+        <picture class="swiper-img">
+          <!-- desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/about/about-title-img.webp    1x,
+              ./images/about/about-title-img@2x.webp 2x,
+              ./images/about/about-title-img@3x.webp 3x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/about/about-title-img.jpg    1x,
+              ./images/about/about-title-img@2x.jpg 2x,
+              ./images/about/about-title-img@3x.jpg 3x
+            "
+            type="image/jpg"
+          />
+          <!-- fallback -->
+          <img
+            class="about__title-img"
+            src="./images/about/about-title-img@3x.jpg"
+            alt="Leaf"
+            width="130"
+            height="65"
+            loading="lazy"
+          />
+        </picture>
       </h2>
       <p class="about__descr">
         You should eat at least five serves of vegetables and two serves of
