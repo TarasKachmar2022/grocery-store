@@ -15,6 +15,23 @@
   --lh: 3;
   // Text colors
   --main-text-cl: #0a1902;
+  // Background colors
+  // Button colors
+  --btn-white-bg-cl: #ffffff;
+  --btn-white-cl: #ffffff;
+  --btn-border-green-cl: rgba(89, 190, 41, 0.3);
   // Accent color
   --accent-cl: #59be29;
+  --accent-hovered-cl: #489c21;
+  // Border radius
+  --br-btn: 20px 80px;
+  // Box shadows
+  --bs-btn: 0 10px 20px 0 rgba(22, 52, 7, 0.15);
+  --bs-btn-header: 0 10px 20px 0 rgba(22, 52, 7, 0.1);
+  --bs-btn-square: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  // Duration
+  --duration: 500ms;
+  --duration-fast: 300ms;
+  // Timing function
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -32,3 +32,9 @@
     background-color: var(--accent-cl);
   }
 }
+
+.header__btn {
+  @extend .btn;
+  min-width: 148px;
+  box-shadow: var(--bs-btn-header);
+}
