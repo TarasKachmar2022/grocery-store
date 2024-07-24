@@ -17,6 +17,11 @@
   text-align: center;
 }
 
+.offers__item:nth-child(2) {
+  border-radius: 30px;
+  box-shadow: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+}
+
 .offers__title {
   font-weight: 600;
   font-size: 25px;
@@ -42,4 +47,5 @@
 
 .offers__btn {
   @extend .btn;
+  margin-bottom: 45px;
 }
