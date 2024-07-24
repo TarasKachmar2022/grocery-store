@@ -50,12 +50,9 @@
 
 .advantages-gallary__list {
   --indent: 1px;
+  --item: 3;
   @extend .card-set;
-  background: radial-gradient(
-    closest-side,
-    rgba(89, 190, 41, 0.5),
-    transparent
-  );
+  background: radial-gradient(closest-side, rgba(89, 190, 41, 1), transparent);
 }
 
 .advantages-gallary__item {
