@@ -1,0 +1,45 @@
+.offers {
+  @include section();
+}
+
+.offers__container {
+  @extend .container;
+}
+
+.offers__list {
+  --indent: 30px;
+  --item: 3;
+  @extend .card-set;
+}
+
+.offers__item {
+  @extend .card-item;
+  text-align: center;
+}
+
+.offers__title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.offers__price {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 1.4;
+  color: var(--accent-cl);
+  margin-bottom: 5px;
+}
+
+.offers__descr {
+  @extend %descr;
+  font-size: 16px;
+  max-width: 272px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.offers__btn {
+  @extend .btn;
+}

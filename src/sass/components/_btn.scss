@@ -24,6 +24,14 @@
 .btn--white {
   color: var(--accent-cl);
   background-color: var(--btn-white-bg-cl);
+  transition-property: color background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn-white-hovered-cl);
+  }
 }
 
 .btn--square {
