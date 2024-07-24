@@ -1,0 +1,64 @@
+.hero {
+  @include section();
+}
+
+.hero__container {
+  @extend .container;
+  @include section();
+  display: flex;
+}
+
+.hero__uppertitle {
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  font-weight: var(--fw-sb);
+  font-size: 121px;
+  line-height: 0.9;
+  color: var(--accent-cl);
+  max-width: 522px;
+  margin-bottom: 25px;
+}
+
+.hero__descr {
+  @extend %descr;
+  max-width: 550px;
+  margin-bottom: 25px;
+}
+
+.hero__btn {
+  @extend .btn;
+}
+
+.hero__btn:last-child {
+  @extend .btn--white;
+  margin-left: 27px;
+}
+
+.hero__thumb {
+  position: relative;
+  margin-right: -220px;
+}
+
+.hero__img01 {
+  position: absolute;
+  top: 98px;
+  left: 117px;
+  z-index: 1;
+}
+
+.hero__img02 {
+  position: absolute;
+  top: 104px;
+  right: 158px;
+}
+
+.hero__img03 {
+  position: absolute;
+  bottom: 198px;
+  left: 187px;
+}
