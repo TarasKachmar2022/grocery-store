@@ -4,7 +4,6 @@
 
 .hero__container {
   @extend .container;
-  @include section();
   display: flex;
 }
 
