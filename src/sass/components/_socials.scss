@@ -1,0 +1,27 @@
+.socials__list {
+  display: flex;
+  gap: 25px;
+}
+
+.socials__link {
+  color: var(--accent-cl);
+  display: block;
+  width: 45px;
+  height: 45px;
+  padding: 12px 12px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-hovered-cl);
+  }
+}
+
+.socials__icon {
+  stroke: currentColor;
+  fill: transparent;
+}

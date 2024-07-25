@@ -1,5 +1,5 @@
 .subscribe {
-  @include section();
+  @include section(60, 100);
 }
 
 .subscribe__container {
