@@ -19,27 +19,27 @@
 
 .offers__item:nth-child(2) {
   border-radius: 30px;
-  box-shadow: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  box-shadow: var(--bs-offers);
 }
 
 .offers__title {
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 1.5;
+  font-weight: var(--fw-sb);
+  font-size: var(--fs-offers-title);
+  line-height: var(--lh-offers-title);
   margin-bottom: 30px;
 }
 
 .offers__price {
-  font-weight: 600;
-  font-size: 35px;
-  line-height: 1.4;
+  font-weight: var(--fw-sb);
+  font-size: var(--fs-offers-price);
+  line-height: var(--lh-offers-price);
   color: var(--accent-cl);
   margin-bottom: 5px;
 }
 
 .offers__descr {
   @extend %descr;
-  font-size: 16px;
+  font-size: var(--fs-offers-descr);
   max-width: 272px;
   margin: 0 auto;
   margin-bottom: 32px;

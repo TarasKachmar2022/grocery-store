@@ -38,8 +38,7 @@
 }
 
 .about__item {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   color: var(--accent-cl);
 }
 
@@ -52,8 +51,8 @@
 }
 
 .about__value {
-  font-size: 49px;
-  line-height: 1.3;
+  font-size: var(--fs-about-value);
+  line-height: var(--lh-about-value);
 }
 
 .about__value::after {

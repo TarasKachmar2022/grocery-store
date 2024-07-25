@@ -7,12 +7,11 @@
 }
 
 .subscribe__wrap {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   justify-content: space-evenly;
   gap: 105px;
-  border-radius: 30px;
-  box-shadow: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  border-radius: var(--br-subscribe);
+  box-shadow: var(--bs-subscribe);
 }
 
 .subscribe__title {
@@ -29,15 +28,15 @@
   width: 258px;
   height: 59px;
   border: transparent;
-  border-radius: 10px;
+  border-radius: var(--br-input);
   outline: none;
   padding: 10px 30px;
   margin-right: 30px;
-  box-shadow: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  box-shadow: var(--bs-input);
 }
 
 .subscribe__input::placeholder {
-  color: rgba(10, 25, 2, 0.3);
+  color: var(--placeholders-cl);
 }
 
 .subscribe__btn {

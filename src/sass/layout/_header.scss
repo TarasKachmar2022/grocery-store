@@ -4,8 +4,7 @@
 
 .header__container {
   @extend .container;
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   justify-content: space-between;
 }
 

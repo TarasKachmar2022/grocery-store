@@ -8,16 +8,16 @@
 }
 
 .hero__uppertitle {
-  font-size: 25px;
-  line-height: 1.5;
-  letter-spacing: 0.1em;
+  font-size: var(--fs-hero-uppertitle);
+  line-height: var(--lh-hero-uppertitle);
+  letter-spacing: var(--ls-hero-uppertitle);
   text-transform: uppercase;
 }
 
 .hero__title {
   font-weight: var(--fw-sb);
-  font-size: 121px;
-  line-height: 0.9;
+  font-size: var(--fs-hero-title);
+  line-height: var(--lh-hero-title);
   color: var(--accent-cl);
   max-width: 522px;
   margin-bottom: 25px;

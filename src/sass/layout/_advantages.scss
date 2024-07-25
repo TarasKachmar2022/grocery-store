@@ -7,8 +7,7 @@
 }
 
 .advantages__wrap {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   gap: 124px;
 }
 
@@ -39,8 +38,8 @@
 }
 
 .advantages__subtitle {
-  font-size: 25px;
-  line-height: 1.5;
+  font-size: var(--fs-advantages-subtitle);
+  line-height: var(--lh-advantages-subtitle);
   margin-bottom: 2px;
 }
 
@@ -52,7 +51,7 @@
   --indent: 1px;
   --item: 3;
   @extend .card-set;
-  background: radial-gradient(closest-side, rgba(89, 190, 41, 1), transparent);
+  background: var(--advantages-gradient);
 }
 
 .advantages-gallary__item {

@@ -1,7 +1,7 @@
 %section-title {
-  font-weight: 600;
-  font-size: 49px;
-  line-height: 1.3;
+  font-weight: var(--fw-sb);
+  font-size: var(--fs-section-title);
+  line-height: var(--lh-section-title);
 }
 
 %descr {
@@ -10,12 +10,23 @@
 }
 
 %numbers {
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 1.4;
+  font-weight: var(--fw-b);
+  font-size: var(--fs-numbers);
+  line-height: var(--lh-numbers);
   padding: 12px 27px;
   margin-right: 35px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  box-shadow: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  border-radius: var(--br-numbers);
+  background-color: var(--white-bg-cl);
+  box-shadow: var(--bs-numbers);
+}
+
+%centeredFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%align-list {
+  display: flex;
+  align-items: center;
 }

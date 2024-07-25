@@ -11,11 +11,36 @@
   --fw-b: 700;
   // Font size
   --fs-main: 18px;
+  --fs-section-title: 49px;
+  --fs-about-value: 49px;
+  --fs-advantages-subtitle: 25px;
+  --fs-footer-descr: 16px;
+  --fs-footer-title: 22px;
+  --fs-footer-link: 16px;
+  --fs-hero-uppertitle: 25px;
+  --fs-hero-title: 121px;
+  --fs-offers-title: 25px;
+  --fs-offers-price: 35px;
+  --fs-offers-descr: 16px;
+  --fs-numbers: 35px;
   // Line height
   --lh: 1.6;
+  --lh-section-title: 1.3;
+  --lh-about-value: 1.3;
+  --lh-advantages-subtitle: 1.5;
+  --lh-footer-title: 1.4;
+  --lh-hero-uppertitle: 1.5;
+  --lh-hero-title: 0.9;
+  --lh-offers-title: 1.5;
+  --lh-offers-price: 1.4;
+  --lh-numbers: 1.4;
+  // Letter spacing
+  --ls-hero-uppertitle: 0.1em;
   // Text colors
   --main-text-cl: #0a1902;
+  --placeholders-cl: rgba(10, 25, 2, 0.3);
   // Background colors
+  --white-bg-cl: #ffffff;
   // Button colors
   --btn-white-bg-cl: #ffffff;
   --btn-white-cl: #ffffff;
@@ -26,10 +51,33 @@
   --accent-hovered-cl: #489c21;
   // Border radius
   --br-btn: 20px 80px;
+  --br-btn-square: 10px;
+  --br-socials: 50%;
+  --br-subscribe: 30px;
+  --br-input: 10px;
+  --br-numbers: 50%;
+  // Gradients
+  --footer-gradient: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(89, 190, 41, 0.4),
+      rgba(0, 0, 0, 0)
+    )
+    1;
+  --advantages-gradient: radial-gradient(
+    closest-side,
+    rgba(89, 190, 41, 1),
+    transparent
+  );
   // Box shadows
   --bs-btn: 0 10px 20px 0 rgba(22, 52, 7, 0.15);
   --bs-btn-header: 0 10px 20px 0 rgba(22, 52, 7, 0.1);
   --bs-btn-square: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  --bs-socials: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  --bs-offers: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  --bs-subscribe: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  --bs-input: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
+  --bs-numbers: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
   // Duration
   --duration: 500ms;
   --duration-fast: 300ms;
