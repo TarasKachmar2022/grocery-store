@@ -1,15 +1,19 @@
-.socials__list {
+.socials {
   display: flex;
   gap: 25px;
 }
 
 .socials__link {
-  color: var(--accent-cl);
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 45px;
   height: 45px;
-  padding: 12px 12px;
   border-radius: 50%;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  color: var(--accent-cl);
   box-shadow: 0 10px 20px 0 rgba(22, 52, 7, 0.05);
   transition-property: color;
   transition-duration: var(--duration);
