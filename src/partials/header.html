@@ -1,12 +1,33 @@
 <header class="header">
   <div class="header__container">
     <a class="" href="./index.html" area-label="site logo">
-      <img
-        src="./images/logo/logo.png"
-        alt="Site logo"
-        width="164"
-        height="65"
-      />
+      <picture>
+        <!-- desktop screen -->
+        <source
+          srcset="
+            ./images/logo/logo.webp    1x,
+            ./images/logo/logo@2x.webp 2x,
+            ./images/logo/logo@3x.webp 3x
+          "
+          type="image/webp"
+        />
+        <source
+          srcset="
+            ./images/logo/logo.png    1x,
+            ./images/logo/logo@2x.png 2x,
+            ./images/logo/logo@3x.png 3x
+          "
+          type="image/jpg"
+        />
+        <!-- fallback -->
+        <img
+          src="./images/logo/logo@3x.png"
+          alt="Site logo"
+          width="164"
+          height="65"
+          loading="lazy"
+        />
+      </picture>
     </a>
     <nav>
       <ul class="nav__list">
