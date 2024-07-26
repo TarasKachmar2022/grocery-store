@@ -6,19 +6,19 @@
   bottom: 50px;
   z-index: 20;
 
-  font-weight: 700;
+  font-weight: var(--fw-b);
   font-family: inherit;
-  font-size: 25px;
-  line-height: 1.24;
+  font-size: var(--fs-btn-up);
+  line-height: var(--lh-btn-up);
 
   border-width: 4px;
   border-style: solid;
   border-color: var(--accent-cl);
-  border-radius: 50%;
+  border-radius: var(--br-btn-up);
   padding: 15px;
   color: var(--accent-cl);
-  background-color: rgba(255, 255, 255, 0.7);
-  transition-property: border-color color background-color;
+  background-color: var(--btn-up-bg-cl);
+  transition-property: background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
 
